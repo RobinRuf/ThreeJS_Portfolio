@@ -5,7 +5,12 @@ import { a } from "@react-spring/three";
 
 import islandScene from "../../assets/scenes/island.glb";
 
-export function Island({ isRotating, setIsRotating, ...props }) {
+export function Island({
+  isRotating,
+  setIsRotating,
+  setCurrentStage,
+  ...props
+}) {
   const islandRef = useRef();
   const { gl, viewport } = useThree();
   const { nodes, materials } = useGLTF(islandScene);
