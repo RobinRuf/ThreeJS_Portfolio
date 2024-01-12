@@ -37,7 +37,7 @@ const Home = () => {
       screenPosition = [0, -4, -4];
     }
 
-    return [screenScale, screenPosition, rotation];
+    return [screenScale, screenPosition];
   };
 
   const [planeScale, planePosition] = adjustPlaneForScreenSize();
@@ -76,8 +76,8 @@ const Home = () => {
           <Plane
             isRotating={isRotating}
             rotation={[0, 20, 0]}
-            planeScale={planeScale}
-            planePosition={planePosition}
+            scale={planeScale}
+            position={planePosition}
           />
         </Suspense>
       </Canvas>

@@ -1,8 +1,11 @@
 const Projects = () => {
   return (
-    <div>
-      <p>Projects</p>
-    </div>
+    <section className="relative flex lg:flex-row flex-col max-container">
+      <div className="flex-1 min-w[50%] flex flex-col">
+        <h1 className="head-text">Projects</h1>
+        <p>This Portfolio is just a sample to show, how a 3D portfolio could look like.</p>
+      </div>
+    </section>
   );
 };
 
