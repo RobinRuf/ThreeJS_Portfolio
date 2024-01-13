@@ -1,8 +1,11 @@
 import { useState, Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import Loader from "../components/Loader";
+// @ts-expect-error - just glb file, it will work and ts is still complaining
 import Island from "../models/Island";
+// @ts-expect-error - just glb file, it will work and ts is still complaining
 import Sky from "../models/Sky";
+// @ts-expect-error - just glb file, it will work and ts is still complaining
 import Plane from "../models/Plane";
 import HomeInfo from "../components/HomeInfo";
 
