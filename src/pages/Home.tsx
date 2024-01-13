@@ -60,7 +60,6 @@ const Home = () => {
           <ambientLight intensity={0.5} />
           {/* Illuminates the scene with a gradient (used for more detailed scene view) */}
           <hemisphereLight
-            skyColor="#b1e1ff"
             groundColor="#000000"
             intensity={1}
           />
