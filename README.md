@@ -1,30 +1,12 @@
-# React + TypeScript + Vite
+# NextJS/ThreeJS Portfolio/Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I was loving to test a bit around with ThreeJS, so I decided to create a Portfolio "Template".\
+Template, because I will not use it personally and not build out the whole site content - if someone wants to use this, feel free.
 
-Currently, two official plugins are available:
+The used main model is an Island. _(if you do not like it, you can find other 3D models on sketchfab for free)_
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This idea is, that you can fly with a plane around the island and at some checkpoints a popup will be shown, there you can switch to subpages like contact, projects and so on.\
+You can fly with the mouse and also with arrow keys.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Set up locally
+Just clone the repo, don't forget to install the dependencies with `npm i` and then simply run the dev-server with `npm run dev`. Straight forward, isn't it?
