@@ -1,7 +1,7 @@
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 
 const Contact = () => {
-  const formRef = useRef(null);
+  //const formRef = useRef(null);
   const [form, setForm] = useState({ name: "", email: "", message: ""})
   const [isLoading, setIsLoading] = useState(false);
 
@@ -13,7 +13,10 @@ const Contact = () => {
     };
   const handleFocus = () => {};
   const handleBlur = () => {};
-  const handleSubmit = () => {};
+  const handleSubmit = () => {
+    setIsLoading(true);
+    // needs to fullfil
+  };
 
   return (
     <section className="relative flex lg:flex-row flex-col max-container">

@@ -1,8 +1,11 @@
 import { useState, Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import Loader from "../components/Loader";
+// @ts-expect-error - just glb file, it will work and ts is still complaining
 import Island from "../models/Island";
+// @ts-expect-error - just glb file, it will work and ts is still complaining
 import Sky from "../models/Sky";
+// @ts-expect-error - just glb file, it will work and ts is still complaining
 import Plane from "../models/Plane";
 import HomeInfo from "../components/HomeInfo";
 
@@ -60,7 +63,6 @@ const Home = () => {
           <ambientLight intensity={0.5} />
           {/* Illuminates the scene with a gradient (used for more detailed scene view) */}
           <hemisphereLight
-            skyColor="#b1e1ff"
             groundColor="#000000"
             intensity={1}
           />
