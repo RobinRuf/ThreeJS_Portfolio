@@ -1,4 +1,4 @@
-# NextJS/ThreeJS Portfolio/Website
+# ReactJS/ThreeJS Portfolio/Website
 
 I was loving to test a bit around with ThreeJS, so I decided to create a Portfolio "Template".\
 Template, because I will not use it personally and not build out the whole site content - if someone wants to use this, feel free.
